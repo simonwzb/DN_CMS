@@ -1,0 +1,1121 @@
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection opened. {executed in 0ms} 
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 12. SELECT id, NAME FROM channel  {executed in 1 ms}
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|0  |¡Ù—‘∞Â  |
+|1  |◊ —∂   |
+|2  |ÃÂ”˝   |
+|3  |”È¿÷   |
+|4  |ø∆ºº   |
+|5  |æ¸ ¬   |
+|6  | ”∆µ   |
+|7  |…Áª·   |
+|8  |∆˚≥µ   |
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection closed. {executed in 0ms} 
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 13. Connection opened. {executed in 0ms} 
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 13. SELECT id, NAME FROM channel WHERE id = 9  {executed in 1 ms}
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 13. Connection closed. {executed in 0ms} 
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 14. Connection opened. {executed in 1ms} 
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 14. SELECT MAX(id) FROM article  {executed in 1 ms}
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20589   |
+|--------|
+
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 14. Connection closed. {executed in 0ms} 
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 15. Connection opened. {executed in 1ms} 
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 15. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 3 ms}
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 21:59:18 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 15. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:11 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection opened. {executed in 1926ms} 
+2014-07-30 at 22:15:11 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 1. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 42 ms}
+2014-07-30 at 22:15:11 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection closed. {executed in 30ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 2. SELECT COUNT(id) FROM article WHERE channel_id = 5  {executed in 2 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1998      |
+|----------|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection closed. {executed in 1ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 3. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article ORDER BY 'id' 'ASC' LIMIT 0, 10) a LEFT JOIN channel b ON a.channel_id 
+= b.id  {executed in 19 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|id |name     |author |overview    |crt_datetime          |upd_timestamp         |name |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|1  |[unread] |.      |[null]      |2014-06-28 20:04:31.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|2  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|3  |[unread] |.      |            |2014-07-03 16:42:06.0 |2014-07-03 16:42:06.0 |¡Ù—‘∞Â  |
+|4  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|5  |[unread] |IT ±¥˙÷‹øØ |[null]      |2014-07-02 17:33:44.0 |2014-07-02 17:33:44.0 |¡Ù—‘∞Â  |
+|6  |[unread] |÷–π˙’˛∏ÆÕ¯  |sadfasdfasd |2014-07-02 17:37:32.0 |2014-07-02 17:37:32.0 |¡Ù—‘∞Â  |
+|7  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |◊ —∂   |
+|8  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |◊ —∂   |
+|9  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÃÂ”˝   |
+|10 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÃÂ”˝   |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 4. SELECT id, name, author, overview, channel_id, upd_timestamp, crt_datetime , main_body FROM 
+article WHERE id = 999  {executed in 62 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+|id  |name                    |author |overview |channel_id |upd_timestamp         |crt_datetime          |main_body |
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+|999 |’„…Ã»∫∆°∞≈⁄∫‰°±¬Ì‘∆:»Ù≤ª∏ƒ¥Ûˆ˘◊˜∑Á5ƒÍƒ⁄±ÿµπ |IT ±¥˙÷‹øØ |[null]   |1          |2014-07-02 15:25:16.0 |2014-07-01 16:59:25.0 |[unread]  |
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 5. SELECT MAX(id) FROM article  {executed in 1 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20589   |
+|--------|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 6. SELECT MAX(id) FROM article  {executed in 1 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20589   |
+|--------|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection closed. {executed in 1ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection opened. {executed in 1ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 7. DELETE FROM article WHERE id IN ( 20589 , 20588 )  {executed in 392 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 8. SELECT Count(id) FROM article  {executed in 10 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|20018     |
+|----------|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 9. SELECT MAX(id) FROM article  {executed in 0 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20584   |
+|--------|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 10. INSERT INTO article ( id, name, channel_id ) VALUES ( 20585, 'testMAXPLUS', 0 )  {executed in 140 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 11. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 6 ORDER BY 'id' 'ASC' LIMIT 1, 10) a LEFT JOIN 
+channel b ON a.channel_id = b.id  {executed in 22 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|id    |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|26    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|27    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|28    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12346 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12347 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12348 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12349 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12350 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12351 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12352 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection closed. {executed in 1ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 12. SELECT id, NAME FROM channel  {executed in 1 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|0  |¡Ù—‘∞Â  |
+|1  |◊ —∂   |
+|2  |ÃÂ”˝   |
+|3  |”È¿÷   |
+|4  |ø∆ºº   |
+|5  |æ¸ ¬   |
+|6  | ”∆µ   |
+|7  |…Áª·   |
+|8  |∆˚≥µ   |
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 13. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 13. SELECT id, NAME FROM channel WHERE id = 9  {executed in 2 ms}
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 22:15:12 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 13. Connection closed. {executed in 1ms} 
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 14. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 14. SELECT MAX(id) FROM article  {executed in 1 ms}
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20590   |
+|--------|
+
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 14. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 15. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 15. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 0 ms}
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 22:15:13 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 15. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection opened. {executed in 321ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 1. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 1 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection closed. {executed in 1ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 2. SELECT COUNT(id) FROM article WHERE channel_id = 5  {executed in 2 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1998      |
+|----------|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 3. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article ORDER BY 'id' 'ASC' LIMIT 0, 10) a LEFT JOIN channel b ON a.channel_id 
+= b.id  {executed in 3 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|id |name     |author |overview    |crt_datetime          |upd_timestamp         |name |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|1  |[unread] |.      |[null]      |2014-06-28 20:04:31.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|2  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|3  |[unread] |.      |            |2014-07-03 16:42:06.0 |2014-07-03 16:42:06.0 |¡Ù—‘∞Â  |
+|4  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|5  |[unread] |IT ±¥˙÷‹øØ |[null]      |2014-07-02 17:33:44.0 |2014-07-02 17:33:44.0 |¡Ù—‘∞Â  |
+|6  |[unread] |÷–π˙’˛∏ÆÕ¯  |sadfasdfasd |2014-07-02 17:37:32.0 |2014-07-02 17:37:32.0 |¡Ù—‘∞Â  |
+|7  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |◊ —∂   |
+|8  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |◊ —∂   |
+|9  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÃÂ”˝   |
+|10 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÃÂ”˝   |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection opened. {executed in 1ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 4. SELECT id, name, author, overview, channel_id, upd_timestamp, crt_datetime , main_body FROM 
+article WHERE id = 999  {executed in 11 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+|id  |name                    |author |overview |channel_id |upd_timestamp         |crt_datetime          |main_body |
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+|999 |’„…Ã»∫∆°∞≈⁄∫‰°±¬Ì‘∆:»Ù≤ª∏ƒ¥Ûˆ˘◊˜∑Á5ƒÍƒ⁄±ÿµπ |IT ±¥˙÷‹øØ |[null]   |1          |2014-07-02 15:25:16.0 |2014-07-01 16:59:25.0 |[unread]  |
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 5. SELECT Count(id) FROM article  {executed in 9 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|20020     |
+|----------|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 6. SELECT MAX(id) FROM article  {executed in 0 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20590   |
+|--------|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 7. INSERT INTO article ( id, name, channel_id ) VALUES ( 20591, 'testMAXPLUS', 0 )  {executed in 27 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 8. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 6 ORDER BY 'id' 'ASC' LIMIT 1, 10) a LEFT JOIN 
+channel b ON a.channel_id = b.id  {executed in 6 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|id    |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|26    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|27    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|28    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12346 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12347 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12348 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12349 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12350 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12351 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12352 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 9. SELECT id, NAME FROM channel  {executed in 0 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|0  |¡Ù—‘∞Â  |
+|1  |◊ —∂   |
+|2  |ÃÂ”˝   |
+|3  |”È¿÷   |
+|4  |ø∆ºº   |
+|5  |æ¸ ¬   |
+|6  | ”∆µ   |
+|7  |…Áª·   |
+|8  |∆˚≥µ   |
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 10. SELECT id, NAME FROM channel WHERE id = 9  {executed in 0 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 11. SELECT MAX(id) FROM article  {executed in 0 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20592   |
+|--------|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 12. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 0 ms}
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 22:17:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection opened. {executed in 457ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 1. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 1 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 2. SELECT COUNT(id) FROM article WHERE channel_id = 5  {executed in 23 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1998      |
+|----------|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 3. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article ORDER BY 'id' 'ASC' LIMIT 0, 10) a LEFT JOIN channel b ON a.channel_id 
+= b.id  {executed in 21 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|id |name     |author |overview    |crt_datetime          |upd_timestamp         |name |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|1  |[unread] |.      |[null]      |2014-06-28 20:04:31.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|2  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|3  |[unread] |.      |            |2014-07-03 16:42:06.0 |2014-07-03 16:42:06.0 |¡Ù—‘∞Â  |
+|4  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |¡Ù—‘∞Â  |
+|5  |[unread] |IT ±¥˙÷‹øØ |[null]      |2014-07-02 17:33:44.0 |2014-07-02 17:33:44.0 |¡Ù—‘∞Â  |
+|6  |[unread] |÷–π˙’˛∏ÆÕ¯  |sadfasdfasd |2014-07-02 17:37:32.0 |2014-07-02 17:37:32.0 |¡Ù—‘∞Â  |
+|7  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |◊ —∂   |
+|8  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |◊ —∂   |
+|9  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÃÂ”˝   |
+|10 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÃÂ”˝   |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 4. SELECT id, name, author, overview, channel_id, upd_timestamp, crt_datetime , main_body FROM 
+article WHERE id = 999  {executed in 2 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+|id  |name                    |author |overview |channel_id |upd_timestamp         |crt_datetime          |main_body |
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+|999 |’„…Ã»∫∆°∞≈⁄∫‰°±¬Ì‘∆:»Ù≤ª∏ƒ¥Ûˆ˘◊˜∑Á5ƒÍƒ⁄±ÿµπ |IT ±¥˙÷‹øØ |[null]   |1          |2014-07-02 15:25:16.0 |2014-07-01 16:59:25.0 |[unread]  |
+|----|------------------------|-------|---------|-----------|----------------------|----------------------|----------|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 5. SELECT Count(id) FROM article  {executed in 11 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|20022     |
+|----------|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 6. SELECT MAX(id) FROM article  {executed in 1 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20592   |
+|--------|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 7. INSERT INTO article ( id, name, channel_id ) VALUES ( 20593, 'testMAXPLUS', 0 )  {executed in 46 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection opened. {executed in 1ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 8. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 6 ORDER BY 'id' 'ASC' LIMIT 1, 10) a LEFT JOIN 
+channel b ON a.channel_id = b.id  {executed in 3 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|id    |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|26    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|27    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|28    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12346 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12347 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12348 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12349 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12350 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12351 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|12352 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 | ”∆µ   |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 9. SELECT id, NAME FROM channel  {executed in 1 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|0  |¡Ù—‘∞Â  |
+|1  |◊ —∂   |
+|2  |ÃÂ”˝   |
+|3  |”È¿÷   |
+|4  |ø∆ºº   |
+|5  |æ¸ ¬   |
+|6  | ”∆µ   |
+|7  |…Áª·   |
+|8  |∆˚≥µ   |
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 10. SELECT id, NAME FROM channel WHERE id = 9  {executed in 0 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|9  |≤©øÕ   |
+|---|-----|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 11. SELECT MAX(id) FROM article  {executed in 0 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20594   |
+|--------|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection opened. {executed in 1ms} 
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 12. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 7 ms}
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 22:28:42 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:32 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection opened. {executed in 430ms} 
+2014-07-30 at 22:29:32 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 1. SELECT COUNT(*) FROM admin WHERE login_id='dn_cms_db' AND password='dn_cms_db'  {executed in 1 ms}
+2014-07-30 at 22:29:32 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---------|
+|count(*) |
+|---------|
+|1        |
+|---------|
+
+2014-07-30 at 22:29:32 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 1. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection opened. {executed in 1ms} 
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 2. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 2 ORDER BY 'upd_timestamp' 'DESC' LIMIT 0, 25) 
+a LEFT JOIN channel b ON a.channel_id = b.id  {executed in 52 ms}
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+|id   |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+|9    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|10   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|11   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|12   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4158 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4159 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4160 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4161 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4162 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4163 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4164 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4165 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4166 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4167 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4168 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4169 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4170 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4171 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4172 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4173 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4174 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4175 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4176 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4177 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|4178 |[unread] |ty.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 2. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 3. SELECT COUNT(id) FROM article WHERE channel_id = 2  {executed in 2 ms}
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1998      |
+|----------|
+
+2014-07-30 at 22:29:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 3. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 4. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 4 ORDER BY 'upd_timestamp' 'DESC' LIMIT 0, 25) 
+a LEFT JOIN channel b ON a.channel_id = b.id  {executed in 23 ms}
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+|id   |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+|17   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|18   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|19   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|20   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8252 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8253 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8254 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8255 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8256 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8257 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8258 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8259 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8260 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8261 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8262 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8263 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8264 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8265 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8266 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8267 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8268 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8269 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8270 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8271 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|8272 |[unread] |kj.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 4. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 5. SELECT COUNT(id) FROM article WHERE channel_id = 4  {executed in 27 ms}
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1998      |
+|----------|
+
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 5. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 6. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 6 ORDER BY 'upd_timestamp' 'DESC' LIMIT 0, 25) 
+a LEFT JOIN channel b ON a.channel_id = b.id  {executed in 5 ms}
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|id    |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|25    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|26    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|27    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|28    |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12346 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12347 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12348 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12349 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12350 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12351 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12352 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12353 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12354 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12355 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12356 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12357 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12358 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12359 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12360 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12361 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12362 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12363 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12364 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12365 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|12366 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 6. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 7. SELECT COUNT(id) FROM article WHERE channel_id = 6  {executed in 2 ms}
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1998      |
+|----------|
+
+2014-07-30 at 22:29:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 7. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 8. SELECT MAX(id) FROM article  {executed in 0 ms}
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|--------|
+|max(id) |
+|--------|
+|20594   |
+|--------|
+
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 8. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 9. SELECT id, NAME FROM channel  {executed in 1 ms}
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|0  |ÁïôË®ÄÊùø  |
+|1  |ËµÑËÆØ   |
+|2  |‰ΩìËÇ≤   |
+|3  |Â®±‰πê   |
+|4  |ÁßëÊäÄ   |
+|5  |ÂÜõ‰∫ã   |
+|6  |ËßÜÈ¢ë   |
+|7  |Á§æ‰ºö   |
+|8  |Ê±ΩËΩ¶   |
+|9  |ÂçöÂÆ¢   |
+|---|-----|
+
+2014-07-30 at 22:29:37 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 9. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:45 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:45 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 10. INSERT INTO article ( id, name, author, overview, channel_id, main_body ) VALUES ( 20595, 'dsfd', 
+'fdf', 'fdf', 0, '<Reader of length 220>' )  {executed in 198 ms}
+2014-07-30 at 22:29:45 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 10. Connection closed. {executed in 1ms} 
+2014-07-30 at 22:29:51 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:51 CST ERROR net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 186 exceptionOccured - 11. PreparedStatement.execute() FAILED! INSERT INTO article ( id, name, author, overview, channel_id, main_body ) VALUES ( 20595, 'dfssd', 
+'fdf', 'fdf', 0, '<Reader of length 220>' )  {FAILED after 105 ms} com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.7.0_65]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[?:1.7.0_65]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:384) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1039) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4232) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4164) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2615) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2776) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2838) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2082) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1307) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:118) ~[c3p0-0.9.5-pre5.jar:0.9.5-pre5]
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443) [log4jdbc-log4j2-jdbc4.1-1.16.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141) [mybatis-3.2.7.jar:3.2.7]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358) [mybatis-spring-1.2.2.jar:1.2.2]
+	at com.sun.proxy.$Proxy30.insert(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240) [mybatis-spring-1.2.2.jar:1.2.2]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52) [mybatis-3.2.7.jar:3.2.7]
+	at com.sun.proxy.$Proxy40.insertSelective(Unknown Source) [?:?]
+	at com.fseer.dn.dn_cms.dao.mybatis.ArticleDAOImpl.insert(ArticleDAOImpl.java:33) [classes/:?]
+	at com.fseer.dn.dn_cms.service.impl.CmsServiceImpl.insertArticle(CmsServiceImpl.java:64) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317) [spring-aop-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:198) [spring-aop-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at com.sun.proxy.$Proxy43.insertArticle(Unknown Source) [?:?]
+	at com.fseer.dn.dn_cms.controller.CmsController.addAjax(CmsController.java:86) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:855) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1651) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.apache.logging.log4j.core.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:66) [log4j-core-2.0-beta9.jar:2.0-beta9]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1631) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:549) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:568) [jetty-security-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:199) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:109) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.Server.handle(Server.java:462) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534) [jetty-io-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607) [jetty-util-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536) [jetty-util-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_65]
+
+2014-07-30 at 22:29:51 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 11. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:51 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:51 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 12. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:29:54 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 13. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:29:54 CST ERROR net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 186 exceptionOccured - 13. PreparedStatement.execute() FAILED! INSERT INTO article ( id, name, author, overview, channel_id, main_body ) VALUES ( 20595, 'dfssd', 
+'fdf', 'fdf', 0, '<Reader of length 220>' )  {FAILED after 1 ms} com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.7.0_65]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[?:1.7.0_65]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.Util.getInstance(Util.java:384) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1039) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4232) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4164) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2615) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2776) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2838) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2082) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1307) ~[mysql-connector-java-5.1.30.jar:?]
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:118) ~[c3p0-0.9.5-pre5.jar:0.9.5-pre5]
+	at net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy.execute(PreparedStatementSpy.java:443) [log4jdbc-log4j2-jdbc4.1-1.16.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141) [mybatis-3.2.7.jar:3.2.7]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358) [mybatis-spring-1.2.2.jar:1.2.2]
+	at com.sun.proxy.$Proxy30.insert(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240) [mybatis-spring-1.2.2.jar:1.2.2]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51) [mybatis-3.2.7.jar:3.2.7]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52) [mybatis-3.2.7.jar:3.2.7]
+	at com.sun.proxy.$Proxy40.insertSelective(Unknown Source) [?:?]
+	at com.fseer.dn.dn_cms.dao.mybatis.ArticleDAOImpl.insert(ArticleDAOImpl.java:33) [classes/:?]
+	at com.fseer.dn.dn_cms.service.impl.CmsServiceImpl.insertArticle(CmsServiceImpl.java:64) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317) [spring-aop-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:198) [spring-aop-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at com.sun.proxy.$Proxy43.insertArticle(Unknown Source) [?:?]
+	at com.fseer.dn.dn_cms.controller.CmsController.addAjax(CmsController.java:86) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:745) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:686) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:855) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829) [spring-webmvc-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:738) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1651) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.apache.logging.log4j.core.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:66) [log4j-core-2.0-beta9.jar:2.0-beta9]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1631) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:549) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:568) [jetty-security-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:478) [jetty-servlet-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:183) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:199) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:109) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.Server.handle(Server.java:462) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:279) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:232) [jetty-server-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534) [jetty-io-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607) [jetty-util-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536) [jetty-util-9.1.5.v20140505.jar:9.1.5.v20140505]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_65]
+
+2014-07-30 at 22:29:54 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 13. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 14. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 14. SELECT id, name, author, overview, channel_id, upd_timestamp, crt_datetime , main_body FROM 
+article WHERE id = 12350  {executed in 13 ms}
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|------|----------|---------|-----------|----------------------|----------------------|----------|
+|id    |name  |author    |overview |channel_id |upd_timestamp         |crt_datetime          |main_body |
+|------|------|----------|---------|-----------|----------------------|----------------------|----------|
+|12350 |sp.10 |sp.author |[null]   |6          |2014-07-02 15:25:16.0 |2014-06-28 19:53:01.0 |[unread]  |
+|------|------|----------|---------|-----------|----------------------|----------------------|----------|
+
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 14. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 15. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 15. SELECT id, NAME FROM channel  {executed in 1 ms}
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|-----|
+|id |name |
+|---|-----|
+|0  |ÁïôË®ÄÊùø  |
+|1  |ËµÑËÆØ   |
+|2  |‰ΩìËÇ≤   |
+|3  |Â®±‰πê   |
+|4  |ÁßëÊäÄ   |
+|5  |ÂÜõ‰∫ã   |
+|6  |ËßÜÈ¢ë   |
+|7  |Á§æ‰ºö   |
+|8  |Ê±ΩËΩ¶   |
+|9  |ÂçöÂÆ¢   |
+|---|-----|
+
+2014-07-30 at 22:30:00 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 15. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:05 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 16. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:05 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 16. UPDATE article SET name = 'sp.10', author = 'sp.aufdf', overview = ' ', channel_id = 0, main_body 
+= '<Reader of length 220>' WHERE id = 12350  {executed in 53 ms}
+2014-07-30 at 22:30:05 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 16. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 17. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 17. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 6 ORDER BY 'upd_timestamp' 'DESC' LIMIT 1950, 
+25) a LEFT JOIN channel b ON a.channel_id = b.id  {executed in 220 ms}
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|id    |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|14293 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14294 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14295 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14296 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14297 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14298 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14299 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14300 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14301 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14302 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14303 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14304 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14305 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14306 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14307 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14308 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14309 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14310 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14311 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14312 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14313 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14314 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14315 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14316 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14317 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 17. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 18. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 18. SELECT COUNT(id) FROM article WHERE channel_id = 6  {executed in 2 ms}
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1997      |
+|----------|
+
+2014-07-30 at 22:30:10 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 18. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 19. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 19. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 6 ORDER BY 'upd_timestamp' 'DESC' LIMIT 1975, 
+25) a LEFT JOIN channel b ON a.channel_id = b.id  {executed in 26 ms}
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|id    |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|14318 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14319 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14320 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14321 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14322 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14323 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14324 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14325 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14326 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14327 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14328 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14329 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14330 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14331 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14332 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14333 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14334 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14335 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14336 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14337 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14338 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14339 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 19. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 20. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 20. SELECT COUNT(id) FROM article WHERE channel_id = 6  {executed in 2 ms}
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1997      |
+|----------|
+
+2014-07-30 at 22:30:16 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 20. Connection closed. {executed in 1ms} 
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 21. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 21. DELETE FROM article WHERE id IN ( 14323 , 14336 , 14337 , 14338 )  {executed in 40 ms}
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 21. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 22. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 22. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 6 ORDER BY 'upd_timestamp' 'DESC' LIMIT 1975, 
+25) a LEFT JOIN channel b ON a.channel_id = b.id  {executed in 11 ms}
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|id    |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+|14318 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14319 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14320 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14321 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14322 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14324 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14325 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14326 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14327 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14328 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14329 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14330 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14331 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14332 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14333 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14334 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14335 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|14339 |[unread] |sp.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|------|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 22. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 23. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 23. SELECT COUNT(id) FROM article WHERE channel_id = 6  {executed in 2 ms}
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1993      |
+|----------|
+
+2014-07-30 at 22:30:31 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 23. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 24. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 24. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article ORDER BY 'upd_timestamp' 'DESC' LIMIT 0, 25) a LEFT JOIN channel 
+b ON a.channel_id = b.id  {executed in 21 ms}
+2014-07-30 at 22:30:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|id |name     |author |overview    |crt_datetime          |upd_timestamp         |name |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+|1  |[unread] |.      |[null]      |2014-06-28 20:04:31.0 |2014-07-02 15:25:16.0 |ÁïôË®ÄÊùø  |
+|2  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁïôË®ÄÊùø  |
+|3  |[unread] |.      |            |2014-07-03 16:42:06.0 |2014-07-03 16:42:06.0 |ÁïôË®ÄÊùø  |
+|4  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁïôË®ÄÊùø  |
+|5  |[unread] |ITÊó∂‰ª£Âë®Âàä |[null]      |2014-07-02 17:33:44.0 |2014-07-02 17:33:44.0 |ÁïôË®ÄÊùø  |
+|6  |[unread] |‰∏≠ÂõΩÊîøÂ∫úÁΩë  |sadfasdfasd |2014-07-02 17:37:32.0 |2014-07-02 17:37:32.0 |ÁïôË®ÄÊùø  |
+|7  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËµÑËÆØ   |
+|8  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËµÑËÆØ   |
+|9  |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|10 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|11 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|12 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |‰ΩìËÇ≤   |
+|13 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|14 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|15 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|16 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|17 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|18 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|19 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|20 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÁßëÊäÄ   |
+|21 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÂÜõ‰∫ã   |
+|22 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÂÜõ‰∫ã   |
+|23 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÂÜõ‰∫ã   |
+|24 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ÂÜõ‰∫ã   |
+|25 |[unread] |.      |[null]      |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |ËßÜÈ¢ë   |
+|---|---------|-------|------------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:30:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 24. SELECT Count(id) FROM article  {executed in 10 ms}
+2014-07-30 at 22:30:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|20021     |
+|----------|
+
+2014-07-30 at 22:30:35 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 24. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 25. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 25. SELECT a.id, a.name, a.author, a.overview, a.crt_datetime, a.upd_timestamp, b.name as name1 
+FROM (SELECT * FROM article WHERE channel_id = 3 ORDER BY 'upd_timestamp' 'DESC' LIMIT 0, 25) 
+a LEFT JOIN channel b ON a.channel_id = b.id  {executed in 6 ms}
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+|id   |name     |author    |overview |crt_datetime          |upd_timestamp         |name |
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+|13   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|14   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|15   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|16   |[unread] |.         |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6205 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6206 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6207 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6208 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6209 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6210 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6211 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6212 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6213 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6214 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6215 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6216 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6217 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6218 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6219 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6220 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6221 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6222 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6223 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6224 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|6225 |[unread] |yl.author |[null]   |2014-06-28 19:53:01.0 |2014-07-02 15:25:16.0 |Â®±‰πê   |
+|-----|---------|----------|---------|----------------------|----------------------|-----|
+
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 25. Connection closed. {executed in 0ms} 
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 26. Connection opened. {executed in 0ms} 
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 243 sqlTimingOccurred - 26. SELECT COUNT(id) FROM article WHERE channel_id = 3  {executed in 2 ms}
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 390 resultSetCollected - 
+|----------|
+|count(id) |
+|----------|
+|1998      |
+|----------|
+
+2014-07-30 at 22:30:36 CST INFO  net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator 365 connectionModified - 26. Connection closed. {executed in 0ms} 

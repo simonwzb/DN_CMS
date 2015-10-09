@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fseer.dn.dn_cms.dao.mybatis.mapper.ArticleMapper" >
+	<!--_____________________________resultMap-BEGIN______________________________-->
+	<resultMap id="BaseResultMap" type="com.fseer.dn.dn_cms.entity.Article" >
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="name" property="name" jdbcType="VARCHAR" />
+		<result column="author" property="author" jdbcType="VARCHAR" />
+		<result column="overview" property="overview" jdbcType="VARCHAR" />
+		<result column="channel_id" property="channel.id" jdbcType="INTEGER" />
+		<result column="upd_timestamp" property="updTimestamp" jdbcType="TIMESTAMP" />
+		<result column="crt_datetime" property="crtDatetime" jdbcType="TIMESTAMP" />
+	</resultMap>
+	<!-- 带长文本类型的结果映射，拓展自上面 -->
+	<resultMap id="ResultMapWithBLOBs" type="com.fseer.dn.dn_cms.entity.Article" extends="BaseResultMap" >
+		<result column="main_body" property="mainBody" jdbcType="LONGVARCHAR" />
+	</resultMap>
+	<!-- 分页的结果映射 -->
+	<resultMap id="PgnResultMap" type="com.fseer.dn.dn_cms.entity.Article" >
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="name" property="name" jdbcType="VARCHAR" />
+		<result column="author" property="author" jdbcType="VARCHAR" />
+		<result column="overview" property="overview" jdbcType="VARCHAR" />
+		<result column="upd_timestamp" property="updTimestamp" jdbcType="TIMESTAMP" />
+		<result column="crt_datetime" property="crtDatetime" jdbcType="TIMESTAMP" />
+		<result column="name1" property="channel.name" jdbcType="INTEGER" />
+	</resultMap>
+	<!--____________________________________END_____________________________________-->
+	
+	<!--______________________________column_list-BEGIN_____________________________-->
+	<sql id="Base_Column_List" >
+    	id, name, author, overview, channel_id, upd_timestamp, crt_datetime
+	</sql>
+	<sql id="Blob_Column_List" >
+    	main_body
+	</sql>
+	<!--____________________________________END_____________________________________-->
+	
+	<!--_________________________insert/update/delete-BEGIN_________________________-->
+	<insert id="insertSelective" parameterType="com.fseer.dn.dn_cms.entity.Article" >
+    INSERT INTO article
+		<trim prefix="(" suffix=")" suffixOverrides="," >
+			id,
+			name,
+			<if test="author != null" >author,</if>
+			<if test="overview != null" >overview,</if>
+			channel_id,
+			<if test="updTimestamp != null" >upd_timestamp,</if>
+			<if test="crtDatetime != null" >crt_datetime,</if>
+			<if test="mainBody != null" >main_body,</if>
+		</trim>
+		<trim prefix="VALUES (" suffix=")" suffixOverrides="," >
+			#{id,jdbcType=INTEGER},
+			#{name,jdbcType=VARCHAR},
+			<if test="author != null" >#{author,jdbcType=VARCHAR},</if>
+			<if test="overview != null" >#{overview,jdbcType=VARCHAR},</if>
+			#{channel.id,jdbcType=INTEGER},
+			<if test="updTimestamp != null" >#{updTimestamp,jdbcType=TIMESTAMP},</if>
+			<if test="crtDatetime != null" >#{crtDatetime,jdbcType=TIMESTAMP},</if>
+			<if test="mainBody != null" >#{mainBody,jdbcType=LONGVARCHAR},</if>
+		</trim>
+	</insert>
+	
+	<update id="updateByIdSelective" parameterType="com.fseer.dn.dn_cms.entity.Article" >
+    UPDATE article
+		<set >
+        name = #{name,jdbcType=VARCHAR},
+			<if test="author != null" >
+        author = #{author,jdbcType=VARCHAR},
+			</if>
+			<if test="overview != null" >
+        overview = #{overview,jdbcType=VARCHAR},
+			</if>
+        channel_id = #{channel.id,jdbcType=INTEGER},
+			<if test="updTimestamp != null" >
+        upd_timestamp = #{updTimestamp,jdbcType=TIMESTAMP},
+			</if>
+			<if test="crtDatetime != null" >
+        crt_datetime = #{crtDatetime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="mainBody != null" >
+        main_body = #{mainBody,jdbcType=LONGVARCHAR},
+			</if>
+		</set>
+    WHERE id = #{id,jdbcType=INTEGER}
+	</update>
+	
+	<delete id="deleteByIds">
+	    DELETE FROM article
+	    WHERE id IN 
+	    <foreach collection="array" item="ids"  open="(" separator="," close=")">  
+       		#{ids}  
+     	</foreach>  
+	</delete>
+	<!--____________________________________END_____________________________________-->
+	<!--________________________________select-BEGIN________________________________-->
+	<select id="selectById" resultMap="ResultMapWithBLOBs" parameterType="int">
+	    SELECT 
+		<include refid="Base_Column_List" />
+	    ,
+		<include refid="Blob_Column_List" />
+	    FROM article
+	    WHERE id = #{id,jdbcType=INTEGER}
+	</select>
+	
+	<select id="selectMaxId" resultType="int">
+	    SELECT MAX(id) FROM article
+	</select>
+	
+	<select id="selectCount" resultType="int">
+	    SELECT Count(id) FROM article
+	</select>
+	
+	<select id="selectCountByChannelId" resultType="int" parameterType="int">
+	    SELECT COUNT(id) FROM article
+	    WHERE channel_id = #{channelId}
+	</select>
+	
+	<select id="selectPgnGeneral" resultMap="PgnResultMap">
+		SELECT a.id,
+		       a.name,
+		       a.author,
+		       a.overview,
+		       a.crt_datetime,
+		       a.upd_timestamp,
+		       b.name as name1
+		FROM   (SELECT *
+		        FROM   article
+		        	<if test="channelId != null and channelId != -1">
+        		WHERE  channel_id = #{channelId}
+					</if>
+		        ORDER  BY #{orderField} #{orderDerection}
+		        LIMIT  #{first}, #{num}) a
+		       LEFT JOIN channel b
+		              ON a.channel_id = b.id 
+	</select>
+	<!--____________________________________END_____________________________________-->
+</mapper>

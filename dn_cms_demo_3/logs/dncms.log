@@ -1,0 +1,28 @@
+2014-07-30 at 22:29:45 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:29:51 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:29:51 CST INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 315 loadBeanDefinitions - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2014-07-30 at 22:29:51 CST INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader 315 loadBeanDefinitions - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2014-07-30 at 22:29:51 CST INFO  org.springframework.jdbc.support.SQLErrorCodesFactory 126 <init> - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2014-07-30 at 22:29:51 CST ERROR com.fseer.dn.dn_cms.dao.mybatis.ArticleDAOImpl 35 insert - org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+### The error may involve com.fseer.dn.dn_cms.dao.mybatis.mapper.ArticleMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO article    ( id,    name,    author,    overview,    channel_id,            main_body )     VALUES ( ?,    ?,    ?,    ?,    ?,            ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+; SQL []; Duplicate entry '20595' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+2014-07-30 at 22:29:54 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:29:54 CST ERROR com.fseer.dn.dn_cms.dao.mybatis.ArticleDAOImpl 35 insert - org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+### The error may involve com.fseer.dn.dn_cms.dao.mybatis.mapper.ArticleMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO article    ( id,    name,    author,    overview,    channel_id,            main_body )     VALUES ( ?,    ?,    ?,    ?,    ?,            ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+; SQL []; Duplicate entry '20595' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20595' for key 'PRIMARY'
+2014-07-30 at 22:30:00 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:30:05 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:30:10 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:30:16 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:30:31 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:30:31 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:30:35 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
+2014-07-30 at 22:30:36 CST INFO  com.fseer.dn.dn_cms.controller.LoginInterceptor 34 preHandle - 拦截器放行.
